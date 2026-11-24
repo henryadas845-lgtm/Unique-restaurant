@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { LayoutDashboard, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useRestaurant } from '../context/RestaurantContext';
 import { sanitizeImageUrl } from '../utils/format';
 
@@ -72,15 +72,6 @@ export const Navbar: React.FC = () => {
               className="hidden sm:inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-[#C81E1E] hover:bg-[#991B1B] rounded-lg transition-colors duration-150 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C81E1E]"
             >
               Order Now
-            </Link>
-
-            <Link
-              to="/admin/login"
-              aria-label="Admin Dashboard"
-              title="Admin Dashboard"
-              className="inline-flex items-center justify-center w-10 h-10 rounded-lg text-neutral-500 hover:text-neutral-950 hover:bg-neutral-100 transition-colors duration-150 shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
-            >
-              <LayoutDashboard className="w-[18px] h-[18px]" strokeWidth={1.75} />
             </Link>
 
             <button

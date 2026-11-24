@@ -1,16 +1,37 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
-const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL as string | undefined)?.trim() || '';
-const supabaseAnonKey = (import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined)?.trim() || '';
+function cleanEnv(raw?: string): string {
+  if (!raw) return '';
+  return raw.trim().replace(/^['"]|['"]$/g, '');
+}
 
-export const isSupabaseConfigured = Boolean(supabaseUrl && supabaseAnonKey);
+function isValidHttpUrl(value: string): boolean {
+  if (!value) return false;
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+  } catch {
+    return false;
+  }
+}
 
-export const supabase: SupabaseClient | null = isSupabaseConfigured
-  ? createClient(supabaseUrl, supabaseAnonKey, {
+const supabaseUrl = cleanEnv(import.meta.env.VITE_SUPABASE_URL as string | undefined);
+const supabaseAnonKey = cleanEnv(import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined);
+
+let client: SupabaseClient | null = null;
+if (isValidHttpUrl(supabaseUrl) && Boolean(supabaseAnonKey)) {
+  try {
+    client = createClient(supabaseUrl, supabaseAnonKey, {
       auth: {
         persistSession: true,
         autoRefreshToken: true,
         detectSessionInUrl: true,
       },
-    })
-  : null;
+    });
+  } catch {
+    client = null;
+  }
+}
+
+export const supabase: SupabaseClient | null = client;
+export const isSupabaseConfigured = Boolean(client);

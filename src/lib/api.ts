@@ -40,6 +40,12 @@ async function apiFetch<T>(url: string, options: RequestInit = {}): Promise<T> {
     headers['Authorization'] = `Bearer ${inMemoryToken}`;
   }
   const res = await fetch(url, { ...options, headers });
+  const contentType = res.headers.get('content-type') || '';
+  if (!contentType.includes('application/json')) {
+    throw new Error(
+      'Database connection is not configured for this deployment. Add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in your hosting Environment Variables and redeploy.'
+    );
+  }
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
     throw new Error(body.error || `Request failed (${res.status})`);

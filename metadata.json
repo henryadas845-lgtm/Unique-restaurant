@@ -1,0 +1,6 @@
+{
+  "name": "Unique Restaurant",
+  "description": "Authentic Nigerian cuisine freshly prepared in Owo Ede, Osogbo, Osun State. Browse rice dishes, traditional soups, local delicacies, and order directly via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

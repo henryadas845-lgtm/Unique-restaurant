@@ -1,0 +1,1427 @@
+PROJECT: UNIQUE RESTAURANT — PROFESSIONAL NIGERIAN RESTAURANT WEBSITE
+
+1. ROLE
+
+Act as a senior full-stack web developer, professional UI/UX designer, restaurant website specialist, and database architect with extensive experience building modern, responsive, conversion-focused restaurant websites.
+
+Your task is to design and develop a complete, professional, visually appealing, and fully functional multi-page website for a Nigerian food business called Unique Restaurant.
+
+The website must have a premium restaurant feel, excellent user experience, intuitive navigation, and a well-structured backend that allows the restaurant owner to manage the website without needing programming knowledge.
+
+Do not create a generic food website. Build a distinctive digital identity that communicates the quality, deliciousness, authenticity, and richness of Nigerian cuisine.
+
+2. BUSINESS INFORMATION
+
+Business Name: Unique Restaurant
+
+Business Category: Nigerian Restaurant / Food Business
+
+Location: Owo Ede, Osogbo, Osun State, Nigeria.
+
+Target Market: Nigerians, particularly residents of Osogbo and surrounding communities, students, workers, families, visitors, and anyone interested in delicious Nigerian meals.
+
+Business Description:
+
+Unique Restaurant specializes in preparing and serving delicious, freshly prepared Nigerian meals. The restaurant offers a variety of traditional Nigerian dishes, including rice meals, beans, local delicacies, soups, swallows, and other popular Nigerian foods.
+
+The website should communicate freshness, affordability, quality, excellent food preparation, and a welcoming restaurant experience.
+
+Brand Colours:
+
+Primary Red: Used for important brand elements, buttons, and highlights.
+
+Black: Used for strong typography, navigation, and premium visual contrast.
+
+Orange: Used for food-related highlights, accents, and call-to-action elements.
+
+White: Used as the primary background colour to maintain cleanliness and readability.
+
+Use these colours consistently throughout the website. Avoid excessive colour combinations.
+
+3. AUDIENCE
+
+Design the website primarily for Nigerians.
+
+The average visitor should be able to:
+
+Understand what Unique Restaurant offers immediately.
+
+Browse available Nigerian meals.
+
+See food pictures, descriptions, and prices in Nigerian Naira (₦).
+
+Select a meal they want to purchase.
+
+Fill in their order and delivery information.
+
+Place an order directly through WhatsApp.
+
+Find the restaurant's location and contact information.
+
+The website must be easy to use, even for visitors who are not particularly familiar with technology.
+
+4. PROJECT GOAL
+
+Build a professional restaurant website that serves as Unique Restaurant's digital storefront.
+
+The website should achieve the following:
+
+Establish a strong and recognizable online presence.
+
+Showcase Nigerian meals through attractive food photography.
+
+Make it easy for customers to discover available meals and prices.
+
+Generate food orders through WhatsApp.
+
+Give the restaurant owner complete control over food listings and website content through an admin dashboard.
+
+Provide a seamless experience on mobile phones, tablets, and desktop computers.
+
+Connect to Supabase for database storage and management.
+
+Be properly structured and optimized for deployment on Vercel.
+
+5. DESIGN STYLE AND UI/UX DIRECTION
+
+Create a modern, elegant, clean, and visually engaging restaurant website.
+
+The design should take inspiration from professionally designed restaurant and food delivery websites, not generic website templates.
+
+Typography
+
+Use DM Sans as the primary font for body text and general interface elements.
+
+Use Playfair Display selectively for elegant headings and prominent restaurant messaging.
+
+The combination should create a balance between a modern food business and an authentic restaurant identity.
+
+Design Principles
+
+Clean and spacious layouts.
+
+Excellent visual hierarchy.
+
+Beautiful food photography.
+
+Consistent spacing and alignment.
+
+Clear navigation.
+
+Attractive food cards.
+
+Rounded corners used moderately.
+
+Smooth transitions and subtle animations.
+
+Strong, visible call-to-action buttons.
+
+High-quality mobile responsiveness.
+
+Consistent use of the brand colours.
+
+Avoid:
+
+Overcrowded sections.
+
+Excessive animations.
+
+Unnecessary gradients.
+
+Too many different font styles.
+
+Generic stock illustrations.
+
+Excessive decorative elements.
+
+Complicated navigation.
+
+Unnecessary sections that distract visitors.
+
+The website must feel like a real Nigerian restaurant brand.
+
+6. WEBSITE STRUCTURE — MULTI-PAGE ARCHITECTURE
+
+IMPORTANT: Build a genuinely multi-page website.
+
+Each navigation item must have its own dedicated page and route. Do not simply create one long landing page with navigation links that scroll to different sections.
+
+Create the following pages:
+
+PAGE 1: HOME
+
+Route: /
+
+The homepage should immediately communicate what Unique Restaurant offers.
+
+A. Navigation Bar
+
+Create a clean, professional navigation bar containing:
+
+Unique Restaurant logo or brand name.
+
+Home.
+
+About Us.
+
+Our Menu.
+
+Contact.
+
+An attractive Order Now button.
+
+An admin dashboard icon.
+
+The admin dashboard icon should be subtle and positioned at the right side of the navigation bar. Use a recognizable dashboard or settings icon rather than displaying a large text button.
+
+The navigation should be sticky or remain easily accessible while scrolling.
+
+On mobile, use a clean hamburger navigation menu.
+
+B. Hero Section
+
+Create an outstanding hero section that immediately captures attention.
+
+Use a large, bold, high-quality photograph of delicious Nigerian food, preferably a beautifully arranged plate of Nigerian jollof rice with chicken, fried plantain, and other accompaniments.
+
+The food photograph should be the visual centerpiece of the hero section.
+
+Include the following headline:
+
+"Delicious Nigerian Meals, Made With Love."
+
+Supporting text:
+
+"Experience the rich taste of authentic Nigerian cuisine. From delicious rice dishes to traditional local delicacies, there's always something special waiting for you at Unique Restaurant."
+
+Add two prominent buttons:
+
+Explore Our Menu
+
+Order Your Favourite Meal
+
+The first button should navigate to /menu.
+
+The second should navigate to the menu or open the food ordering experience.
+
+Display the restaurant location subtly:
+
+"Owo Ede, Osogbo, Osun State."
+
+C. Featured Meals Section
+
+Heading:
+
+"Our Delicious Meals"
+
+Supporting text:
+
+"Explore some of the delicious meals prepared to satisfy your cravings."
+
+Display approximately 6 attractive food cards.
+
+Each food card must contain:
+
+Real food photograph.
+
+Food name.
+
+Short description.
+
+Price in Nigerian Naira.
+
+Order Now button.
+
+Use these initial food items:
+
+Nigerian Jollof Rice — ₦2,500
+Description: Deliciously prepared Nigerian party-style jollof rice, rich in flavour and served fresh.
+
+Fried Rice — ₦3,000
+Description: Tasty Nigerian fried rice prepared with fresh vegetables and carefully selected ingredients.
+
+Ewa Agoyin — ₦2,000
+Description: Soft, well-cooked beans served with delicious traditional agoyin pepper sauce.
+
+White Rice and Stew — ₦2,500
+Description: Freshly cooked white rice served with rich, homemade Nigerian tomato stew.
+
+Ofada Rice and Sauce — ₦3,500
+Description: Local Nigerian rice served with delicious, spicy ayamase-style sauce.
+
+Beans and Plantain — ₦2,500
+Description: Deliciously cooked beans served with sweet fried ripe plantain.
+
+These are starter prices and must be editable through the admin dashboard.
+
+D. Why Choose Us Section
+
+Heading:
+
+"Why Choose Unique Restaurant?"
+
+Display four attractive feature blocks:
+
+Freshly Prepared Meals: We prepare delicious meals with attention to quality and freshness.
+
+Authentic Nigerian Taste: Enjoy the richness and flavour of traditional Nigerian cuisine.
+
+Affordable Prices: Delicious meals that offer great value for your money.
+
+Easy Ordering: Place your food orders conveniently through WhatsApp.
+
+Use simple icons and short descriptions.
+
+E. Popular Food Categories
+
+Display food categories such as:
+
+Rice Dishes.
+
+Beans and Local Delicacies.
+
+Soups and Swallows.
+
+Special Meals.
+
+Drinks and Refreshments.
+
+Each category should link to the menu page, where customers can browse available meals.
+
+F. Call-to-Action Section
+
+Create an attractive section with a delicious food background or food image.
+
+Headline:
+
+"Craving Something Delicious?"
+
+Supporting text:
+
+"Your favourite Nigerian meals are just a few clicks away."
+
+Button: "Order Now"
+
+G. Footer
+
+Include:
+
+Unique Restaurant logo/name.
+
+Short business description.
+
+Quick navigation links.
+
+Location: Owo Ede, Osogbo, Osun State.
+
+WhatsApp contact.
+
+Social media icons.
+
+Copyright information.
+
+Keep the footer clean and organized.
+
+PAGE 2: ABOUT US
+
+Route: /about
+
+Create a dedicated About Us page that introduces Unique Restaurant and its food philosophy.
+
+A. Page Hero
+
+Heading:
+
+"About Unique Restaurant"
+
+Supporting text:
+
+"Good Food. Great Taste. A Unique Experience."
+
+Use an attractive Nigerian food or restaurant image.
+
+B. Our Story
+
+Heading:
+
+"Our Story"
+
+Content:
+
+"At Unique Restaurant, we believe that good food brings people together. Our passion is serving delicious Nigerian meals prepared with care, quality ingredients, and a commitment to satisfying every customer.
+
+From popular rice dishes to traditional Nigerian delicacies, we aim to give every customer a memorable food experience.
+
+Located in Owo Ede, Osogbo, Unique Restaurant is dedicated to making delicious Nigerian food accessible to everyone."
+
+C. Our Mission
+
+"To serve delicious, affordable, and satisfying Nigerian meals while creating a welcoming experience for every customer."
+
+D. Our Vision
+
+"To become a trusted and recognized food destination known for quality, great taste, and excellent customer satisfaction."
+
+E. Our Values
+
+Display:
+
+Quality.
+
+Freshness.
+
+Customer Satisfaction.
+
+Affordability.
+
+Authentic Nigerian Taste.
+
+F. Closing CTA
+
+Heading:
+
+"Come Experience Something Delicious."
+
+Button: "Explore Our Menu"
+
+Navigate to /menu.
+
+Use professional food photography and an organized editorial layout.
+
+PAGE 3: OUR MENU
+
+Route: /menu
+
+This is one of the most important pages of the website.
+
+It must function as a digital food catalogue where visitors can explore available meals and place orders.
+
+A. Menu Hero
+
+Heading:
+
+"Explore Our Delicious Menu"
+
+Supporting text:
+
+"Freshly prepared Nigerian favourites, made to satisfy your cravings."
+
+Use a beautiful Nigerian food photograph.
+
+B. Food Category Filters
+
+Create functional category filters:
+
+All Meals.
+
+Rice Dishes.
+
+Beans and Local Delicacies.
+
+Soups and Swallows.
+
+Special Meals.
+
+Drinks.
+
+When a customer clicks a category, display only the meals belonging to that category.
+
+C. Food Catalogue
+
+Display all available meals in a responsive grid.
+
+Each food card should contain:
+
+High-quality food image.
+
+Food name.
+
+Short food description.
+
+Price in ₦.
+
+Availability indicator.
+
+Order Now button.
+
+Use the following initial food catalogue:
+
+RICE DISHES:
+
+Nigerian Jollof Rice — ₦2,500.
+
+Fried Rice — ₦3,000.
+
+White Rice and Stew — ₦2,500.
+
+Ofada Rice and Sauce — ₦3,500.
+
+Coconut Rice — ₦3,000.
+
+Native Rice — ₦3,500.
+
+BEANS AND LOCAL DELICACIES:
+
+Ewa Agoyin — ₦2,000.
+
+Beans and Plantain — ₦2,500.
+
+Yam and Egg Sauce — ₦2,500.
+
+Moi Moi — ₦1,000.
+
+Akara — ₦1,000.
+
+SOUPS AND SWALLOWS:
+
+Egusi Soup and Eba — ₦3,500.
+
+Efo Riro and Amala — ₦3,500.
+
+Ogbono Soup and Pounded Yam — ₦4,000.
+
+Vegetable Soup and Eba — ₦3,500.
+
+SPECIAL MEALS:
+
+Jollof Rice with Chicken — ₦4,000.
+
+Fried Rice with Chicken — ₦4,500.
+
+Rice with Beef and Plantain — ₦4,000.
+
+DRINKS:
+
+Bottled Water — ₦500.
+
+Soft Drinks — ₦700.
+
+Zobo — ₦1,000.
+
+All prices are sample starting prices. Store them in Supabase and make them fully editable by the restaurant owner.
+
+Do not hardcode the food catalogue into the frontend.
+
+The menu must load dynamically from the Supabase database.
+
+If a food item is unavailable, display an appropriate "Currently Unavailable" indicator and disable its order button.
+
+D. Food Ordering Interaction
+
+When a customer clicks any food card or its Order Now button, open a beautifully designed ordering modal or dedicated order form.
+
+The order form must collect:
+
+Customer's Full Name.
+
+WhatsApp Phone Number.
+
+Selected Food Item.
+
+Quantity.
+
+Delivery or Pickup Preference.
+
+Customer's Delivery Location/Address.
+
+Additional Instructions.
+
+Preferred Delivery Time (optional).
+
+The selected food item and its price must automatically populate the form.
+
+Allow customers to increase or decrease quantities.
+
+Show the order summary, including:
+
+Selected food.
+
+Quantity.
+
+Unit price.
+
+Subtotal.
+
+Delivery fee, if applicable.
+
+Total amount.
+
+Provide two options:
+
+Delivery.
+
+Self Pickup.
+
+For delivery, require the customer to enter a delivery address.
+
+For pickup, the address should not be required.
+
+Include a clear button:
+
+"Place Order via WhatsApp"
+
+WhatsApp Order Integration
+
+On submission, validate the required form fields.
+
+Generate a properly formatted WhatsApp order message containing:
+
+Restaurant name.
+
+Customer's name.
+
+Customer's phone number.
+
+Selected food.
+
+Quantity.
+
+Price.
+
+Subtotal.
+
+Delivery fee, if applicable.
+
+Total amount.
+
+Delivery or pickup preference.
+
+Delivery address, if applicable.
+
+Additional instructions.
+
+Then redirect the customer to WhatsApp using:
+
+https://wa.me/2348146186937
+
+Prepopulate the WhatsApp message using the appropriate URL-encoded message parameter.
+
+The customer should land in a WhatsApp conversation with Unique Restaurant, with the order details already written and ready to send.
+
+IMPORTANT:
+
+Do not claim that an order has been confirmed merely because the customer has been redirected to WhatsApp.
+
+Clearly inform the customer that they must send the WhatsApp message to complete their order request.
+
+Do not automatically charge customers or request online payment.
+
+The WhatsApp number must be configurable from the admin dashboard.
+
+PAGE 4: CONTACT US
+
+Route: /contact
+
+Create a professional contact page that makes it easy for customers to reach Unique Restaurant.
+
+A. Contact Hero
+
+Heading:
+
+"Get In Touch With Us"
+
+Supporting text:
+
+"We would love to hear from you. Reach out to us for enquiries, food orders, and other information."
+
+B. Contact Information
+
+Display:
+
+Business Name: Unique Restaurant.
+
+Location: Owo Ede, Osogbo, Osun State, Nigeria.
+
+WhatsApp: +234 814 618 6937.
+
+Phone: +234 814 618 6937.
+
+Opening Hours: Use editable opening-hour information managed through the dashboard. Do not invent confirmed business hours.
+
+C. Contact Form
+
+Create a functional form with:
+
+Full Name.
+
+Email Address (optional).
+
+Phone Number.
+
+Subject.
+
+Message.
+
+Add a "Send Message" button.
+
+Save submitted enquiries to Supabase and show a clear success or error message.
+
+D. Location Section
+
+Include a Google Maps embed or a map link pointing to Owo Ede, Osogbo, Osun State.
+
+Do not invent an exact street address or GPS coordinates.
+
+E. WhatsApp CTA
+
+Add a visible WhatsApp button:
+
+"Chat With Us on WhatsApp"
+
+This should open the restaurant's WhatsApp conversation.
+
+7. ADMIN DASHBOARD
+
+This is a very important part of the project.
+
+Build a complete, functional admin dashboard that allows the restaurant owner to manage the website without editing source code.
+
+Admin Access
+
+Place a small dashboard icon in the main website navigation.
+
+When the owner clicks the icon, navigate to:
+
+/admin/login
+
+Create a professional login page with:
+
+Unique Restaurant branding.
+
+Email or username field, depending on the authentication configuration.
+
+Password field.
+
+Show/hide password option.
+
+Login button.
+
+Initial requested password: Omakitchen.
+
+IMPORTANT SECURITY REQUIREMENT:
+
+Do not hardcode the admin password in frontend JavaScript, HTML, React components, or publicly accessible environment variables.
+
+Implement secure authentication using Supabase Auth.
+
+Configure the initial admin account using secure server-side provisioning or Supabase's administrative tools.
+
+The initial password should be set to Omakitchen during setup, but it must not be exposed in the deployed website's source code.
+
+Require the owner to change this temporary password after the first login.
+
+Only authenticated and authorized administrators should access the dashboard.
+
+Protect all admin routes and database operations.
+
+Admin Dashboard Layout
+
+After successful authentication, display a modern admin dashboard with a sidebar.
+
+Sidebar navigation:
+
+Overview.
+
+Manage Foods.
+
+Food Categories.
+
+Orders.
+
+Customer Enquiries.
+
+Website Content.
+
+Restaurant Settings.
+
+Logout.
+
+A. Dashboard Overview
+
+Display summary cards showing:
+
+Total Food Items.
+
+Available Meals.
+
+Unavailable Meals.
+
+Total Orders/Order Requests.
+
+New Customer Enquiries.
+
+Display recent food items and recent enquiries.
+
+Do not display fabricated business analytics. Use actual database records.
+
+B. Manage Foods
+
+This section must allow the owner to:
+
+Add a new food item.
+
+Upload a food photograph.
+
+Edit existing food items.
+
+Update food names.
+
+Edit food descriptions.
+
+Change food prices.
+
+Select food categories.
+
+Mark food as available or unavailable.
+
+Feature selected meals on the homepage.
+
+Delete food items after confirmation.
+
+Food upload fields:
+
+Food Name.
+
+Food Description.
+
+Price.
+
+Category.
+
+Food Image.
+
+Availability Status.
+
+Featured Status.
+
+Save food records to Supabase.
+
+Upload images to Supabase Storage.
+
+Display image previews before saving.
+
+Allow the owner to replace an existing food image.
+
+C. Food Categories
+
+Allow the admin to:
+
+Add categories.
+
+Edit categories.
+
+Delete categories.
+
+Change category names.
+
+Assign food items to categories.
+
+The public menu should update automatically when categories are changed.
+
+D. Orders
+
+Create an order management interface.
+
+Important: Since the customer completes the order through WhatsApp, do not pretend that WhatsApp redirection automatically creates a confirmed order.
+
+Where possible, save an order request to Supabase before redirecting the customer to WhatsApp.
+
+Display:
+
+Customer Name.
+
+Phone Number.
+
+Food Items.
+
+Quantity.
+
+Total Amount.
+
+Delivery Address.
+
+Order Date.
+
+Order Status.
+
+Allow the admin to update statuses such as:
+
+Pending.
+
+Processing.
+
+Completed.
+
+Cancelled.
+
+Clearly distinguish order requests from confirmed orders.
+
+E. Customer Enquiries
+
+Display enquiries submitted through the Contact Us form.
+
+Show:
+
+Customer Name.
+
+Email.
+
+Phone Number.
+
+Subject.
+
+Message.
+
+Date Received.
+
+Allow the admin to mark enquiries as read or delete them.
+
+F. Website Content Management
+
+Give the owner control over editable website information, including:
+
+Homepage hero heading.
+
+Homepage supporting text.
+
+Hero image.
+
+About Us content.
+
+Mission statement.
+
+Vision statement.
+
+Restaurant description.
+
+Contact information.
+
+WhatsApp number.
+
+Location.
+
+Opening hours.
+
+Changes should reflect on the public website without requiring code changes.
+
+G. Restaurant Settings
+
+Allow the owner to update:
+
+Restaurant name.
+
+Restaurant logo.
+
+WhatsApp phone number.
+
+Contact phone number.
+
+Location.
+
+Opening hours.
+
+Social media links.
+
+Delivery fee.
+
+Currency display.
+
+The currency should default to Nigerian Naira (₦).
+
+8. SUPABASE DATABASE INTEGRATION
+
+Use Supabase as the backend database and image storage provider.
+
+The website must be connected to Supabase from the beginning of development.
+
+Do not build a frontend-only demonstration that requires rebuilding the backend later.
+
+Create a properly structured database.
+
+Suggested database tables:
+
+profiles
+
+id
+
+email
+
+role
+
+created_at
+
+food_categories
+
+id
+
+name
+
+slug
+
+created_at
+
+foods
+
+id
+
+name
+
+description
+
+price
+
+category_id
+
+image_url
+
+is_available
+
+is_featured
+
+created_at
+
+updated_at
+
+orders
+
+id
+
+customer_name
+
+customer_phone
+
+delivery_type
+
+delivery_address
+
+subtotal
+
+delivery_fee
+
+total_amount
+
+additional_instructions
+
+status
+
+created_at
+
+order_items
+
+id
+
+order_id
+
+food_id
+
+food_name
+
+unit_price
+
+quantity
+
+subtotal
+
+enquiries
+
+id
+
+name
+
+email
+
+phone
+
+subject
+
+message
+
+is_read
+
+created_at
+
+restaurant_settings
+
+id
+
+restaurant_name
+
+description
+
+whatsapp_number
+
+phone_number
+
+location
+
+opening_hours
+
+delivery_fee
+
+logo_url
+
+hero_image_url
+
+updated_at
+
+Create appropriate foreign key relationships, constraints, and indexes.
+
+Database Security
+
+Configure Row Level Security (RLS) on all relevant tables.
+
+Ensure that:
+
+Only authenticated and authorized administrators can add, edit, or delete foods.
+
+Only administrators can manage categories.
+
+Only administrators can modify restaurant settings.
+
+Public visitors can read available food items and public website content.
+
+Customers can submit enquiries.
+
+Customers can submit order requests without gaining access to other customers' private information.
+
+Admin-only information remains protected.
+
+Never expose the Supabase service role key in the frontend.
+
+Use environment variables for Supabase configuration.
+
+Create SQL migration files or a clearly organized Supabase setup script so the database can be configured consistently.
+
+Supabase Storage
+
+Create suitable storage buckets:
+
+food-images
+
+restaurant-assets
+
+Use these buckets for food photographs, restaurant logo, and homepage images.
+
+Configure appropriate storage policies.
+
+The owner should be able to upload and manage food images from the dashboard.
+
+9. IMAGE AND FOOD PHOTOGRAPHY REQUIREMENTS
+
+Visual presentation is extremely important for a restaurant website.
+
+Use real, appetizing photographs of Nigerian food.
+
+The images should accurately represent the meals being displayed.
+
+Prioritize images of:
+
+Nigerian jollof rice.
+
+Fried rice.
+
+Ewa Agoyin.
+
+Ofada rice and ayamase sauce.
+
+White rice and stew.
+
+Beans and fried plantain.
+
+Egusi soup.
+
+Efo Riro.
+
+Pounded yam.
+
+Moi Moi.
+
+Akara.
+
+Nigerian chicken dishes.
+
+Zobo and Nigerian refreshments.
+
+The hero section must have a bold, attention-grabbing food image.
+
+Use high-resolution photographs with appealing food presentation, natural lighting, and professional food photography composition.
+
+Avoid:
+
+Cartoon food illustrations.
+
+Unrelated foreign dishes.
+
+Artificial-looking food images.
+
+Repeating the same photograph across every food card.
+
+Broken image links.
+
+Random placeholder images.
+
+Use properly licensed image assets or reliable image sources during development.
+
+Where actual restaurant photographs are unavailable, use suitable Nigerian food photographs as temporary images and allow the owner to replace them through the admin dashboard.
+
+Optimize images for web performance.
+
+10. FUNCTIONALITY AND USER EXPERIENCE
+
+Every button, navigation item, form, and interactive component must work.
+
+Implement:
+
+Functional multi-page routing.
+
+Responsive navigation.
+
+Working food category filters.
+
+Dynamic food catalogue.
+
+Food ordering modal.
+
+Quantity selector.
+
+Order summary.
+
+Form validation.
+
+WhatsApp order redirection.
+
+Contact form submission.
+
+Supabase database operations.
+
+Admin authentication.
+
+Protected dashboard routes.
+
+Food upload and editing.
+
+Food availability management.
+
+Website content management.
+
+Loading states.
+
+Empty states.
+
+Error messages.
+
+Success notifications.
+
+Confirmation dialogs for destructive actions.
+
+Use appropriate skeleton loaders while fetching database content.
+
+If Supabase is unavailable, display a user-friendly error message instead of crashing the application.
+
+11. TECHNICAL STACK
+
+Use a modern, maintainable, Vercel-compatible architecture.
+
+Preferred technologies:
+
+React.
+
+TypeScript.
+
+Vite.
+
+Tailwind CSS.
+
+React Router for multi-page navigation.
+
+Lucide React for icons.
+
+Supabase for authentication, database, and storage.
+
+React Hook Form and Zod for form validation where appropriate.
+
+Toast notifications for user feedback.
+
+Use reusable components and a clean project structure.
+
+Suggested folder structure:
+
+src/
+components/
+Navbar/
+Footer/
+FoodCard/
+FoodGrid/
+OrderModal/
+CategoryFilter/
+Buttons/
+Forms/
+
+pages/
+Home.tsx
+About.tsx
+Menu.tsx
+Contact.tsx
+
+admin/
+AdminLogin.tsx
+Dashboard.tsx
+ManageFoods.tsx
+ManageCategories.tsx
+ManageOrders.tsx
+ManageEnquiries.tsx
+WebsiteContent.tsx
+Settings.tsx
+
+lib/
+supabase.ts
+
+hooks/
+types/
+utils/
+assets/
+
+Create additional files and components where necessary.
+
+12. VERCEL DEPLOYMENT REQUIREMENTS
+
+The website will be deployed on Vercel.
+
+Build the application with deployment readiness in mind from the beginning.
+
+Requirements:
+
+Ensure all packages and dependencies are properly configured.
+
+Use environment variables for all sensitive configuration.
+
+Create a valid production build script.
+
+Configure Vercel rewrites or SPA fallback routing so refreshing /about, /menu, /contact, and /admin/login does not produce a 404 error.
+
+Ensure image paths and assets resolve correctly after deployment.
+
+Avoid hardcoded localhost URLs.
+
+Avoid server-side dependencies that are incompatible with the deployment environment.
+
+Do not expose Supabase service role credentials.
+
+Ensure protected routes work after deployment.
+
+Test all forms and Supabase operations in production configuration.
+
+Check for TypeScript errors and build errors before deployment.
+
+Ensure the application does not depend on local development files or machine-specific paths.
+
+Create a .env.example file containing:
+
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+
+Use the correct public Supabase publishable/anon key according to the configured Supabase project.
+
+Any privileged server-side credentials must remain server-side and must never use a VITE_ prefix.
+
+Include clear instructions for adding the environment variables to Vercel.
+
+13. SEO AND PERFORMANCE
+
+Optimize the website for local restaurant searches.
+
+Use appropriate page titles and descriptions.
+
+Examples:
+
+Homepage title:
+Unique Restaurant | Delicious Nigerian Food in Osogbo
+
+Homepage description:
+Enjoy delicious Nigerian meals at Unique Restaurant, located in Owo Ede, Osogbo, Osun State. Explore our menu and order your favourite meals.
+
+Use:
+
+Semantic HTML.
+
+Appropriate heading hierarchy.
+
+Descriptive image alt text.
+
+Open Graph metadata.
+
+Responsive image optimization.
+
+Lazy loading for images where appropriate.
+
+Fast-loading pages.
+
+Accessible navigation and forms.
+
+14. FINAL QUALITY REQUIREMENTS
+
+Before considering the project complete, verify the following:
+
+All four public pages work independently.
+
+Navigation between pages works correctly.
+
+The homepage displays featured meals.
+
+The menu loads food items from Supabase.
+
+Food category filters work.
+
+Food prices display correctly in Naira.
+
+Selecting a food item opens the ordering form.
+
+Quantity changes update the order summary.
+
+Delivery and pickup options work correctly.
+
+The WhatsApp order message contains the correct information.
+
+Contact enquiries are saved to Supabase.
+
+The admin login works securely.
+
+Unauthorized visitors cannot access admin functions.
+
+The admin can add, edit, delete, and upload food items.
+
+Food changes reflect on the public website.
+
+The admin can manage website information.
+
+The website is fully responsive.
+
+No broken images or nonfunctional buttons exist.
+
+No major console errors occur.
+
+The production build succeeds.
+
+Direct navigation and page refreshes work on Vercel.
+
+15. DEVELOPMENT INSTRUCTIONS
+
+Build the website progressively, but maintain a consistent architecture throughout.
+
+Do not sacrifice functionality for appearance.
+
+Do not create static dashboard screens that merely look functional.
+
+Do not use fake authentication.
+
+Do not hardcode menu data into components when it should come from Supabase.
+
+Do not use insecure frontend-only database permissions.
+
+Do not leave essential functionality as TODO comments.
+
+Do not generate unnecessary pages outside the requested scope.
+
+If any Supabase credentials are unavailable, build the integration layer properly, create the database SQL scripts, and clearly identify the credentials needed to complete the connection.
+
+If a business detail is unknown, use an editable placeholder rather than inventing information.
